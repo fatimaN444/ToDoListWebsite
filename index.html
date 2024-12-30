@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Professional Todo List</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="path-to-your-icon.ico" />
+
+  </head>
+  <body>
+    <div class="app-container">
+      <header>
+        <h1 class="app-title">Todo List</h1>
+      </header>
+
+      <div class="todo-content">
+        <form id="form" class="todo-form">
+          <input
+            type="text"
+            id="input"
+            class="todo-input"
+            placeholder="Add a new task..."
+            required
+          />
+          <button type="submit" class="submit-btn">Add</button>
+        </form>
+
+        <div class="todo-list">
+          <ul id="todos" class="todos"></ul>
+        </div>
+
+        <footer>
+          <small class="footer-text">Designed with ❤️ by Your Name</small>
+        </footer>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
